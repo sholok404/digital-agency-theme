@@ -1,0 +1,57 @@
+header {
+  padding: 20px 0;
+  background-color: #f7f7f7;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header a {
+  padding: 0 20px;
+  margin: 0;
+  color: gray;
+}
+
+header a:hover {
+  color: #999999;
+}
+
+header a:active {
+  color: #999999;
+}
+
+#mumbo_jumbo {
+  background-color: #f7f7f7;
+}
+#title {
+  font-weight: bold;
+}
+#mac {
+  float: left;
+}
+#mouse {
+  float: right;
+}
+#pencil {
+  display: block;
+  margin: auto;
+}
+#nav {
+  width: 90%;
+}
+.navbar-toggle {
+  float: right;
+}
